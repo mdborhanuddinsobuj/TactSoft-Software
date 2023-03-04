@@ -1,0 +1,131 @@
+﻿@model TactSoft.Core.Model.CareerModel 
+@{
+    ViewData["Title"] = "Career";
+}          
+ <!-- Breadcrumbs Start -->
+            <div class="rs-breadcrumbs img3">
+                <div class="breadcrumbs-inner text-center">
+                    <h1 class="page-title">Career</h1>
+                    <ul>
+                        <li title="Tactsoft  - IT Solutions and Technology Startup HTML Template">
+                            <a class="active" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                       <li>Career</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Breadcrumbs End -->
+
+           
+	<!--============Job Application Form Start============-->
+	<div id="job-apply-form">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="heading">
+					<h2 class="mb-3">Job Application Form</h2>
+					@*<%--<h4>React Developer</h4>--%>*@
+				</div>
+				<form asp-action="Index" asp-controller="Career" enctype="multipart/form-data" method="post"> 
+					<p>Personal Information</p>
+					<div class="row">
+						<div class="col-md-3">
+							<label for="name" class="form-label">Your Name *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="Name" type="text" class="form-control" id="name">
+						</div>
+							<div class="col-md-3">
+							<label for="email" class="form-label">Your Email *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="Email" type="email" class="form-control" id="email">
+						</div>
+							<div class="col-md-3">
+							<label for="phone" class="form-label">Your Phone *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="Phone" type="text" class="form-control" id="phone">
+						</div>
+							<div class="col-md-3">
+							<label for="varsity" class="form-label">Your University *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="University" type="text" class="form-control" id="varsity">
+						</div>
+						</div>
+							<p>Career Quize/Experience</p>
+					<div class="row">
+						<div class="col-md-3">
+							<label for="experience" class="form-label">Total Years of Experience *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="TotalExperience" type="text" class="form-control" id="experience">
+						</div>
+						<div class="col-md-3">
+							<label for="interest" class="form-label">Area of Expertise/Interest Area *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="ExpertiseArea" type="text" class="form-control" id="interest">
+						</div>
+						<div class="col-md-3">
+							<label for="notice">Notice Period *</label>
+						</div>
+						<div class="col-md-7">
+
+						<select asp-for="NoticePeriodId" class="form-custom-select form-select" asp-items="@(ViewBag.NoticePeriodId)">
+							<option value="">Select Notice Period</option>
+						</select>
+						</div>
+							<div class="col-md-3">
+							<label for="notice">Category *</label>
+						</div>
+						<div class="col-md-7">
+
+						<select asp-for="CategoryId" class="form-custom-select form-select" asp-items="@(ViewBag.CategoryId)">
+							<option value="">Select Caegory</option>
+								
+							</select>
+						</div>
+						<div class="col-md-3">
+							<label for="currentCompany" class="form-label">Current Company *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="CurrentCompany" type="text" class="form-control" id="currentCompany">
+						</div>
+						<div class="col-md-3">
+							<label for="currentSalary" class="form-label">Current Salary *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="CurrentSalary" type="text" class="form-control" id="currentSalary">
+						</div>
+						<div class="col-md-3">
+							<label for="expectedSalary" class="form-label">Expected Salary *</label>
+						</div>
+						<div class="col-md-7">
+							  <input asp-for="ExpectedSalary" type="text" class="form-control" id="expectedSalary">
+						</div>
+						<div class="col-md-3">
+							<label for="coverLetter" class="form-label">Cover Letter *</label>
+						</div>
+						<div class="col-md-7">
+							  <textarea asp-for="CoverLetter" class="form-control" id="coverLetter"></textarea>
+						</div>
+						<div class="col-md-3">
+							<label for="resume" class="form-label">Resume *</label>
+						</div>
+						<div class="col-md-7">
+							 <input asp-for="ResumeUrl" class="form-control" type="file" id="resume" multiple>
+						</div>
+						<div class="col-md-3">
+							
+						</div>
+						<div class="col-md-7">
+							<button type="submit" class="btn btn-primary mb-3 btnSubmit">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	
+	</div>
+	<!--============Job Application Form End============-->

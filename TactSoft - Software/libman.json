@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@6.3.0",
+      "destination": "wwwroot/lib/font-awesome"
+    },
+    {
+      "library": "datatables@1.10.21",
+      "destination": "wwwroot/lib/datatables/"
+    },
+    {
+      "library": "datatables-buttons@2.3.5",
+      "destination": "wwwroot/lib/datatables-buttons/"
+    },
+    {
+      "library": "datatables-responsive@2.4.0",
+      "destination": "wwwroot/lib/datatables-responsive/"
+    },
+    {
+      "library": "datatables.net-bs4@3.2.2",
+      "destination": "wwwroot/lib/datatables.net-bs4/"
+    }
+  ]
+}

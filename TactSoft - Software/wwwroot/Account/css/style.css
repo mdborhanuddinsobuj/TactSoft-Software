@@ -1,0 +1,133 @@
+/*===================================
+Login Demo-4 Start
+=====================================*/
+#loginDemo4{
+    width: 80%;
+    margin: auto;
+    padding: 35px 50px;
+}
+#loginDemo4 .firstPart{
+    border-style: solid;
+    border-color: #2398EA;
+    background-color: #2398EA;
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px 0px 0px 30px;
+}
+#loginDemo4 .firstPart h3{
+    color: #FAFAFA;
+    font-weight: 600;
+}
+#loginDemo4 .firstPart p{
+    color: #FAFAFA;
+}
+#loginDemo4 .firstPart .img{
+    width: 100%;
+    padding-top: 65px;
+    text-align: center;
+}
+#loginDemo4 .firstPart .img img{
+    width: 170px;
+    height: 170px;
+}
+#loginDemo4 .login{
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 30px 30px 0px;
+}
+#loginDemo4 .login .login-img{
+    width: 100%;
+    text-align: center;
+}
+#loginDemo4 .login .login-img img{
+    width: 130px;
+    height: 130px;
+}
+#loginDemo4 .login h3{
+    font-weight: 600;
+}
+#loginDemo4 .login p{
+    color: #3F3C46;
+}
+#loginDemo4 .login form{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+#loginDemo4 .login form .userName{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo4 .login form .userName input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo4 .login form .userName input:focus{
+    outline: none;
+}
+#loginDemo4 .login form .password{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo4 .login form .password input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo4 .login form .password input:focus{
+    outline: none;
+}
+#loginDemo4 .login form i{
+    color: #939393;
+    font-size: 18px;
+}
+#loginDemo4 .login form .form-check input{
+    background-color: #10384D;
+    border-radius: 0px;
+    margin-top: 6px;
+}
+#loginDemo4 .login form .form-check label{
+    color: white;
+    font-size: 14px;
+}
+#loginDemo4 .login form .forgotten a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo4 .login form .forgotten a:hover{
+    text-decoration: underline;
+}
+#loginDemo4 .login form .create-account a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo4 .login form .create-account a:hover{
+    text-decoration: underline;
+}
+#loginDemo4 .login form button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    border: none;
+}
+/*===================================
+Login Demo-4 End
+=====================================*/

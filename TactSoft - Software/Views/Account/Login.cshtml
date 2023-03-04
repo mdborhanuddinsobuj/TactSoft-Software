@@ -1,0 +1,45 @@
+﻿@model TactSoft.Core.Model.ViewModel.LoginSignUpVM
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/Account/_LayouttLogin.cshtml";
+}
+
+<div id="loginDemo4">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 firstPart">
+                <div class="img">
+                    <img src="~/account/img/undraw_firmware_re_fgdy.svg" class="img-fluid" alt="">
+                </div>
+                <h3 class="text-center">Lorem, ipsum, dolor sit</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum maiores ab fugiat tenetur aliquid eum asperiores repellendus modi veniam. Tempora molestiae, porro aut pariatur qui temporibus, sed reiciendis nostrum!</p>
+
+            </div>
+            <div class="col-md-6 login">
+                <div class="login-img">
+                    <img src="~/account/img/undraw_studying_re_deca.svg" class="img-fluid" alt="Login">
+                </div>
+                <h3 class="text-center mt-4">Login</h3>
+                <p class="text-center">Lorem, ipsum, dolor sit amet consectetur</p>
+                <form method="post" asp-action="Login">
+                    <div class="mb-3 userName">
+                        <input type="text" asp-for="UserName" placeholder="Username">
+                        <i class="bi bi-person-fill"></i>
+                    </div>
+                    <div class="mb-2 password">
+                        <input type="password" asp-for="Password" placeholder="Password">
+                        <i class="bi bi-lock-fill"></i>
+                    </div>
+                    <div class="mb-4">
+                        <button class="btn btn-primary">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

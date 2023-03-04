@@ -1,0 +1,644 @@
+html, body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner .over-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+}
+.banner .text{
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.banner .text h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.content{
+    padding: 70px 50px;
+}
+.content span{
+    background-color: darkred;
+    padding: 5px 12px;
+    color: white;
+    border-radius: 5px;
+}
+.content .liveView{
+ 
+}
+.content .liveView a{
+     background-color: darkred;
+    padding: 5px 12px;
+    color: white;
+    text-decoration: none;
+}
+.content hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+   height: 1px;
+   color: #B6B6B6;
+}
+
+
+
+
+/*===================================
+Login Demo-1 Start
+=====================================*/
+#loginDemo1{
+    width: 100%;
+    padding: 20px 50px;
+}
+#loginDemo1 .register{
+    border-style: solid;
+    border-color: #2398EA;
+    background-color: #2398EA;
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px 0px 0px 30px;
+}
+#loginDemo1 .register h3{
+    color: #FAFAFA;
+    font-weight: 600;
+}
+#loginDemo1 .register p{
+    color: #FAFAFA;
+}
+#loginDemo1 .register .regi-img{
+    width: 100%;
+    text-align: center;
+}
+#loginDemo1 .register .regi-img img{
+    width: 150px;
+    height: 150px;
+}
+#loginDemo1 .register form{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#loginDemo1 .register form label{
+    color: #FAFAFA;
+    background-color: #2398EA;
+    margin-left: 18px;
+    padding: 1px 7px;
+}
+
+#loginDemo1 .register form input{
+    margin-top: -20px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 25px;
+    background-color: transparent!important;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    color: white;
+    font-size: 14px;
+}
+#loginDemo1 .register form ::placeholder{
+    color: #FAFAFA;
+}
+#loginDemo1 .register form .form-check{
+    padding-bottom: 20px;
+}
+#loginDemo1 .register form .form-check label{
+    margin-left: 0px;
+}
+#loginDemo1 .register form .form-check input{
+    margin-top: 7px;
+    padding-left: 0px;
+}
+#loginDemo1 .register form button{
+    width: 100%;
+    background-color: white;
+    color: #2398EA;
+    border-color: white;
+    font-weight: 600;
+}
+#loginDemo1 .register form button:hover{
+    background-color: transparent;
+    color: #FAFAFA;
+    border-color: #FAFAFA;
+    transition: .6s;
+}
+#loginDemo1 .login{
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 30px 30px 0px;
+}
+#loginDemo1 .login .login-img{
+    width: 100%;
+    text-align: center;
+}
+#loginDemo1 .login .login-img img{
+    width: 130px;
+    height: 130px;
+}
+#loginDemo1 .login h3{
+    font-weight: 600;
+}
+#loginDemo1 .login p{
+    color: #3F3C46;
+}
+#loginDemo1 .login form{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#loginDemo1 .login form label{
+    color: #2398EA;
+    background-color: white;
+    margin-left: 18px;
+    padding: 1px 7px;
+}
+#loginDemo1 .login form #email{
+    margin-top: -20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    background-color: transparent!important;
+    border-width: 1px;
+    border-color: #2398EA;
+    color: #2398EA;
+    font-size: 14px;
+}
+#loginDemo1 .login form #password{
+    margin-top: -18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    background-color: transparent!important;
+    border-width: 1px;
+    border-color: #2398EA;
+    color: #2398EA;
+    font-size: 14px;
+}
+#loginDemo1 .login form ::placeholder{
+    color: #2398EA;
+}
+#loginDemo1 .login form .form-check input{
+    margin-top: 6px;
+}
+#loginDemo1 .login form .form-check label{
+    color: black;
+    margin-left: 0px;
+}
+#loginDemo1 .login form .forgotten a{
+    text-decoration: none;
+}
+#loginDemo1 .login form .forgotten a:hover{
+    text-decoration: underline;
+}
+#loginDemo1 .login form button{
+    width: 100%;
+    font-weight: 600;
+    margin-top: 12px;
+}
+#loginDemo1 .login form .googleBtn button{
+    color: #3F3C46;
+    font-size: 13px;
+    padding: 8px 0px;
+    background-color: transparent!important;
+    border-color: #3F3C46;
+}
+#loginDemo1 .login form .googleBtn .bi-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+#loginDemo1 .login form .googleBtn button:hover{
+    background-color: #2398EA!important;
+    border-color: #2398EA!important;
+    color: white;
+    transition: .6s;
+}
+/*===================================
+Login Demo-1 End
+=====================================*/
+
+
+
+/*===================================
+Login Demo-2 Start
+=====================================*/
+#loginDemo2{
+    width: 100%;
+    height: 100vh;
+    background-color: #5589AC;
+    overflow-x: hidden;
+}
+#loginDemo2 .login-body{
+    width: 30%;
+    padding: 0px 35px;
+    margin: auto;
+    margin-top: 135px;
+    background-color: #1B4D67;
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 6px 14px;
+    position: relative;
+}
+#loginDemo2 .login-body .user-icon{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #10384D;
+    margin: auto;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    position: relative;
+    opacity: .9;
+}
+#loginDemo2 .login-body .user-icon i{
+    font-size: 110px;
+    color: white;
+    margin-top: -20px;
+    margin-left: -55px;
+    position: absolute;
+}
+#loginDemo2 .login-body .userName{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#loginDemo2 .login-body .userName input{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+#loginDemo2 .login-body .userName input:focus{
+    outline: none;
+}
+#loginDemo2 .login-body .password{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#loginDemo2 .login-body .password input{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+#loginDemo2 .login-body .password input:focus{
+    outline: none;
+}
+#loginDemo2 .login-body form i{
+    color: #939393;
+    font-size: 18px;
+}
+#loginDemo2 .login-body form .form-check input{
+    background-color: #10384D;
+    border-radius: 0px;
+    margin-top: 6px;
+}
+#loginDemo2 .login-body form .form-check label{
+    color: white;
+    font-size: 14px;
+}
+#loginDemo2 .login-body form .forgotten a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+}
+#loginDemo2 .login-body form .forgotten a:hover{
+    text-decoration: underline;
+}
+#loginDemo2 .login-body form button{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: -25px;
+    margin-left: 3px;
+    position: absolute;
+    border-radius: 0px;
+    border: none;
+    background-color: #10384D;
+    opacity: .9;
+}
+#loginDemo2 .login-body form button:hover{
+    background-color: white;
+    color: #10384D;
+    transition: .7s ease;
+}
+/*===================================
+Login Demo-2 End
+=====================================*/
+
+
+
+
+/*===================================
+Login Demo-3 Start
+=====================================*/
+#loginDemo3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+#loginDemo3 .login-body{
+    width: 30%;
+    padding: 35px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 6px 14px;
+}
+#loginDemo3 .login-body h3{
+    color: #53330F;
+    font-size: 25px;
+    font-weight: bold;
+}
+#loginDemo3 .login-body .userName{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo3 .login-body .userName input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo3 .login-body .userName input:focus{
+    outline: none;
+}
+#loginDemo3 .login-body .password{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo3 .login-body .password input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo3 .login-body .password input:focus{
+    outline: none;
+}
+#loginDemo3 .login-body form i{
+    color: #939393;
+    font-size: 18px;
+}
+#loginDemo3 .login-body form .form-check input{
+    background-color: #10384D;
+    border-radius: 0px;
+    margin-top: 6px;
+}
+#loginDemo3 .login-body form .form-check label{
+    color: white;
+    font-size: 14px;
+}
+#loginDemo3 .login-body form .forgotten a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo3 .login-body form .forgotten a:hover{
+    text-decoration: underline;
+}
+#loginDemo3 .login-body form .create-account a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo3 .login-body form .create-account a:hover{
+    text-decoration: underline;
+}
+#loginDemo3 .login-body form button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 0px;
+    border: none;
+    background-color: #F77A0C;
+}
+#loginDemo3 .login-body form button:hover{
+    text-decoration: underline;
+}
+#loginDemo3 .login-body .loginWay{
+    width: 100%;
+    text-align: center;
+}
+#loginDemo3 .login-body .loginWay p{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #F77A0C;
+}
+#loginDemo3 .login-body .loginWay p::before { 
+  content: "- ";
+  color: white;
+  font-weight: bold;
+}
+#loginDemo3 .login-body .loginWay p::after { 
+  content: " -";
+  color: white;
+  font-weight: bold;
+}
+#loginDemo3 .login-body .loginWay .social-icon{
+    margin-top: 18px;
+}
+#loginDemo3 .login-body .loginWay .social-icon a{
+    text-decoration: none;
+    margin-right: 8px;
+}
+#loginDemo3 .login-body .loginWay .social-icon a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .6s;
+}
+#loginDemo3 .login-body .loginWay .social-icon i{
+    font-size: 18px;
+    
+}
+.bi-facebook{
+    color: #3b5998;
+}
+.bi-linkedin{
+    color: #0072b1;
+}
+.bi-twitter{
+    color: #00acee;
+}
+.bi-pinterest{
+    color:  #E60023;
+}
+/*===================================
+Login Demo-3 End
+=====================================*/
+
+
+/*===================================
+Login Demo-4 Start
+=====================================*/
+#loginDemo4{
+    width: 100%;
+    padding: 45px 50px;
+}
+#loginDemo4 .firstPart{
+    border-style: solid;
+    border-color: #2398EA;
+    background-color: #2398EA;
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px 0px 0px 30px;
+}
+#loginDemo4 .firstPart h3{
+    color: #FAFAFA;
+    font-weight: 600;
+}
+#loginDemo4 .firstPart p{
+    color: #FAFAFA;
+}
+#loginDemo4 .firstPart .img{
+    width: 100%;
+    padding-top: 65px;
+    text-align: center;
+}
+#loginDemo4 .firstPart .img img{
+    width: 170px;
+    height: 170px;
+}
+#loginDemo4 .login{
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    padding: 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 30px 30px 0px;
+}
+#loginDemo4 .login .login-img{
+    width: 100%;
+    text-align: center;
+}
+#loginDemo4 .login .login-img img{
+    width: 130px;
+    height: 130px;
+}
+#loginDemo4 .login h3{
+    font-weight: 600;
+}
+#loginDemo4 .login p{
+    color: #3F3C46;
+}
+#loginDemo4 .login form{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+#loginDemo4 .login form .userName{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo4 .login form .userName input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo4 .login form .userName input:focus{
+    outline: none;
+}
+#loginDemo4 .login form .password{
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DEDEDE;
+}
+#loginDemo4 .login form .password input{
+    width: 90%;
+    border: none;
+    padding: 7px;
+    background-color: white;
+}
+#loginDemo4 .login form .password input:focus{
+    outline: none;
+}
+#loginDemo4 .login form i{
+    color: #939393;
+    font-size: 18px;
+}
+#loginDemo4 .login form .form-check input{
+    background-color: #10384D;
+    border-radius: 0px;
+    margin-top: 6px;
+}
+#loginDemo4 .login form .form-check label{
+    color: white;
+    font-size: 14px;
+}
+#loginDemo4 .login form .forgotten a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo4 .login form .forgotten a:hover{
+    text-decoration: underline;
+}
+#loginDemo4 .login form .create-account a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+#loginDemo4 .login form .create-account a:hover{
+    text-decoration: underline;
+}
+#loginDemo4 .login form button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    border: none;
+}
+/*===================================
+Login Demo-4 End
+=====================================*/

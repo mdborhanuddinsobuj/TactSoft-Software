@@ -1,0 +1,96 @@
+@media only screen and (max-width: 991px) {
+	
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4 {
+		width: 100%;
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}
+
+@media only screen and (max-width: 768px) {
+
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4 {
+		width: 100%;
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo4 .firstPart{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .firstPart .img{
+		padding-top: 0px;
+	}
+	#loginDemo4 .firstPart .img img{
+		width: 150px;
+		height: 150px;
+	}
+	#loginDemo4 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}
+
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4 {
+		width: 100%;
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo4 .firstPart{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .firstPart .img{
+		padding-top: 0px;
+	}
+	#loginDemo4 .firstPart .img img{
+		width: 150px;
+		height: 150px;
+	}
+	#loginDemo4 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}

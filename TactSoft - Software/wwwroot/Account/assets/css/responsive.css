@@ -1,0 +1,331 @@
+@media only screen and (max-width: 991px) {
+	/*
+	Login Demo-1 Start
+	=====================================*/
+	#loginDemo1{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo1 .register{
+		padding: 20px 10px;
+	}
+	#loginDemo1 .register form{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#loginDemo1 .login{
+		padding: 20px 10px;
+	}
+	#loginDemo1 .login form{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	/*
+	Login Demo-1 End
+	=====================================*/
+
+	/*
+	Login Demo-2 Start
+	=====================================*/
+	#loginDemo2{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo2 .login-body{
+		width: 90%;
+		padding: 15px;
+	}
+	#loginDemo2 .login-body form button{
+		margin-top: -10px;
+	}
+	/*
+	Login Demo-2 End
+	=====================================*/
+
+	/*
+	Login Demo-3 Start
+	=====================================*/
+	#loginDemo3{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo3 .login-body{
+		width: 90%;
+		padding: 15px;
+	}
+	/*
+	Login Demo-3 End
+	=====================================*/
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	/*
+	Home Page Start
+	=====================================*/
+	.content{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.banner .text h2{
+		font-size: 25px;
+	}
+	.banner .text h5{
+		font-size: 15px;
+	}
+	.banner .text h4{
+		font-size: 18px;
+	}
+	/*
+	Home Page End
+	=====================================*/
+
+
+	/*
+	Login Demo-1 Start
+	=====================================*/
+	#loginDemo1{
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo1 .register{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo1 .register form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#loginDemo1 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo1 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-1 End
+	=====================================*/
+
+	/*
+	Login Demo-2 Start
+	=====================================*/
+	#loginDemo2{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo2 .login-body{
+		width: 90%;
+		padding: 15px;
+	}
+	#loginDemo2 .login-body form button{
+		margin-left: 10px;
+	}
+	/*
+	Login Demo-2 End
+	=====================================*/
+
+	/*
+	Login Demo-3 Start
+	=====================================*/
+	#loginDemo3{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo3 .login-body{
+		width: 90%;
+		padding: 15px;
+	}
+	/*
+	Login Demo-3 End
+	=====================================*/
+
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4{
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo4 .firstPart{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .firstPart .img{
+		padding-top: 0px;
+	}
+	#loginDemo4 .firstPart .img img{
+		width: 150px;
+		height: 150px;
+	}
+	#loginDemo4 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}
+
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+	/*
+	Home Page Start
+	=====================================*/
+	.content{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.banner .text h2{
+		font-size: 25px;
+	}
+	.banner .text h5{
+		font-size: 15px;
+	}
+	.banner .text h4{
+		font-size: 18px;
+	}
+	/*
+	Home Page End
+	=====================================*/
+
+	/*
+	Login Demo-1 Start
+	=====================================*/
+	#loginDemo1{
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo1 .register{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo1 .register form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#loginDemo1 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo1 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-1 End
+	=====================================*/
+
+	/*
+	Login Demo-2 Start
+	=====================================*/
+	#loginDemo2{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo2 .login-body{
+		width: 90%;
+		padding: 15px;
+	}	
+	#loginDemo2 .login-body form button{
+		margin-top: -10px;
+		margin-left: 20px;
+	}
+	/*
+	Login Demo-2 End
+	=====================================*/
+
+	/*
+	Login Demo-3 Start
+	=====================================*/
+	#loginDemo3{
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	#loginDemo3 .login-body{
+		width: 90%;
+		padding: 15px;
+	}
+	/*
+	Login Demo-3 End
+	=====================================*/
+
+	/*
+	Login Demo-4 Start
+	=====================================*/
+	#loginDemo4{
+		padding-top: 0%;
+		padding-right: 5%;
+		padding-bottom: 0%;
+		padding-left: 5%;
+	}
+	#loginDemo4 .firstPart{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .firstPart .img{
+		padding-top: 0px;
+	}
+	#loginDemo4 .firstPart .img img{
+		width: 150px;
+		height: 150px;
+	}
+	#loginDemo4 .login{
+		padding: 30px 10px;
+		border-radius: 0px;
+	}
+	#loginDemo4 .login form{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	/*
+	Login Demo-4 End
+	=====================================*/
+}

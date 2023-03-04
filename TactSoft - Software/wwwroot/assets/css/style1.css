@@ -1,0 +1,1231 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+    Service Section Start
+  =============================================*/
+.service-section {
+    width: 100%;
+    margin-top: -100px;
+    padding: 20px 40px;
+    overflow-x: hidden;
+}
+
+    .service-section .card {
+        width: 100%;
+        margin-top: 10px;
+        padding: 40px 10px 10px 20px;
+        text-align: center;
+        border: none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+        .service-section .card:hover {
+            background-color: #03dbac;
+            transition: .6s ease-in-out;
+        }
+
+        .service-section .card .photo img {
+            width: 70px;
+            height: 100px;
+        }
+
+        .service-section .card .card-body a {
+            text-decoration: none;
+            color: #101010;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+        }
+
+            .service-section .card .card-body a:hover {
+                color: white;
+            }
+
+        .service-section .card .card-body p {
+            color: #444444;
+            margin-top: 12px;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+
+/*
+    Service Section End
+  =============================================*/
+
+
+/*
+    We run IT Service Section Start
+  =============================================*/
+.it-service {
+    width: 100%;
+    padding: 100px 40px;
+    background-color: #F8FAF9;
+    overflow-x: hidden;
+}
+
+    .it-service .photo {
+        display: flex;
+    }
+
+        .it-service .photo .first-photo {
+            width: 300px;
+            height: 450px;
+            background-image: url(../../assets/images/it-service/it-1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-style: none;
+            border-radius: 5px;
+        }
+
+        .it-service .photo .second-photo {
+            width: 300px;
+            height: 450px;
+            background-image: url(../../assets/images/it-service/it-2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-style: none;
+            border-radius: 5px;
+        }
+
+        .it-service .photo .second-photo {
+            margin-top: 50px;
+            margin-left: -20px;
+        }
+
+    .it-service h2 {
+        color: #101010;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    .it-service p {
+        color: #212529;
+        text-align: justify;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding-right: 80px;
+    }
+
+    .it-service .card {
+        border: none;
+        border-radius: 0px;
+        padding: 10px 15px;
+        background-color: transparent;
+    }
+
+    .it-service .it-team {
+        border-right: 1px solid;
+        border-color: #E7E7E7;
+    }
+
+    .it-service .expert {
+        border-right: 1px solid;
+        border-color: #E7E7E7;
+    }
+
+    .it-service .card h4 {
+        color: #444444;
+        text-align: justify;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+/*
+    We run IT Service Section End
+  =============================================*/
+
+
+/*
+    Woriking Process Section Start
+  =============================================*/
+.process-section {
+    width: 100%;
+    padding: 100px 40px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+    .process-section .photo {
+        display: flex;
+    }
+
+        .process-section .photo .first-photo {
+            width: 300px;
+            height: 450px;
+            background-image: url(../../assets/images/projects/1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-style: none;
+            border-radius: 5px;
+        }
+
+        .process-section .photo .second-photo {
+            width: 300px;
+            height: 450px;
+            background-image: url(../../assets/images/projects/2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-style: none;
+            border-radius: 5px;
+        }
+
+        .process-section .photo .second-photo {
+            margin-top: 50px;
+            margin-left: -20px;
+        }
+    .process-section h2 {
+        color: #101010;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    .process-section h4 {
+        color: #101010;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .process-section p {
+        color: #101010;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    .process-section .process-icon{
+        width: 140px;
+        height: 140px;
+        margin-right: 15px;
+    }
+    .process-section .process-icon img{
+        width: 90%;
+        height: 50px;
+    }
+        /*
+    Woriking Process Section End
+  =============================================*/
+        /*
+    Web Package Price Start
+  =============================================*/
+        .webPackage {
+        padding: 80px 40px;
+        background-color: #FCFCFC;
+    }
+
+    .webPackage .title h1 {
+        color: black;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .webPackage .title p {
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .webPackage .title h2 {
+        width: 100%;
+        color: #02AA85;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+
+    .webPackage .underLine {
+        width: 100%;
+    }
+
+        .webPackage .underLine .line {
+            width: 12%;
+            height: 4px;
+            border: none;
+            background-image: linear-gradient(to right, #9FF1DE, #03dbac, #9FF1DE);
+            margin: auto;
+            animation: animate 3s linear infinite;
+        }
+
+@keyframes animate {
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 200px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+.webPackage .list-group #plan {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: none !important;
+    background-color: #02AA85;
+}
+
+.webPackage .list-group .list-group-item {
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 6px;
+    margin: 0px;
+}
+
+.webPackage .list-group #amount {
+    width: 100%;
+    color: white;
+    background-color: #03dbac;
+}
+
+    .webPackage .list-group #amount h1 {
+        color: white;
+        font-size: 32px;
+    }
+
+    .webPackage .list-group #amount span {
+        color: white;
+        font-size: 12px;
+    }
+
+    .webPackage .list-group #amount button {
+        border: none;
+        background-color: white;
+        color: #0DB691;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 4px 22px;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        border-radius: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+        .webPackage .list-group #amount button:hover {
+            background-color: #0DB691;
+            color: white;
+            border-color: white;
+            transition: .7s;
+        }
+
+.webPackage .list-group #cPanel {
+    color: #02AA85;
+}
+
+.webPackage .list-group #ssl {
+    color: #02AA85;
+}
+
+.webPackage .list-group {
+    margin-top: 40px;
+}
+
+    .webPackage .list-group:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+/*
+    Web Package Price End
+  =============================================*/
+
+
+/*
+    Our Work Start
+  =============================================*/
+.our-work {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFCFC;
+    overflow-x: hidden;
+}
+
+    .our-work .underline {
+        width: 100px;
+        height: 3px;
+        border-style: none;
+        background-color: #ea624c;
+        margin: auto;
+        margin-bottom: 15px;
+        animation: animate 3s linear infinite;
+    }
+
+    .our-work h2 {
+        padding-top: 100px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .our-work .content {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+        .our-work .content .key h1 {
+            color: #FFF2EE;
+            font-size: 190px;
+            font-weight: bold;
+        }
+
+        .our-work .content .short-details {
+            margin-top: -15px;
+        }
+
+            .our-work .content .short-details p {
+                color: #ea624c;
+                font-size: 18px;
+            }
+
+            .our-work .content .short-details h3 {
+                color: #383939;
+                font-size: 32px;
+                font-weight: bold;
+                margin-top: -15px;
+            }
+
+        .our-work .content .dev-tools a {
+            text-decoration: none;
+            border-style: solid;
+            border-color: #ea624c;
+            border-width: 1px;
+            border-radius: 4px;
+            padding: 5px 14px;
+            cursor: pointer;
+            margin-right: 8px;
+            color: #ea624c;
+            font-size: 18px;
+        }
+
+            .our-work .content .dev-tools a:hover {
+                color: white;
+                background-color: #ea624c;
+                transition: .6s;
+            }
+
+        .our-work .content .view-btn a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #ea624c;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+            .our-work .content .view-btn a:hover i {
+                padding-left: 15px !important;
+                transition: .7s;
+            }
+
+        .our-work .content .project-photo {
+            margin-top: 50px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+            .our-work .content .project-photo img {
+                width: 100%;
+                height: 400px;
+            }
+
+        .our-work .content hr {
+            color: #DEDEDE;
+            margin-top: 40px;
+        }
+    /*--Get in Touch Start--*/
+    .our-work .get-in-touch {
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-bottom: 30px;
+        padding-right: 200px;
+        background-color: #E3E3E3;
+    }
+
+        .our-work .get-in-touch form h4 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .our-work .get-in-touch form button {
+            text-transform: uppercase;
+        }
+
+        .our-work .get-in-touch .contact-by h4 {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .our-work .get-in-touch .contact-by {
+            background-color: #212545;
+        }
+
+            .our-work .get-in-touch .contact-by .info-sec {
+                color: white;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+
+                .our-work .get-in-touch .contact-by .info-sec i {
+                    font-size: 26px;
+                }
+
+                .our-work .get-in-touch .contact-by .info-sec span {
+                    margin: 5px;
+                    padding-left: 10px;
+                    font-size: 18px;
+                }
+
+            .our-work .get-in-touch .contact-by .social-link {
+                margin-top: 150px;
+                margin-left: 15px;
+            }
+
+                .our-work .get-in-touch .contact-by .social-link a {
+                    text-decoration: none;
+                }
+
+                .our-work .get-in-touch .contact-by .social-link i {
+                    color: #7297E6;
+                }
+
+                    .our-work .get-in-touch .contact-by .social-link i:hover {
+                        color: white;
+                        transition: .6s;
+                    }
+
+                .our-work .get-in-touch .contact-by .social-link i {
+                    font-size: 25px;
+                    margin-right: 15px;
+                }
+/*--Get in Touch End--*/
+
+/*
+    Our Work End
+  =============================================*/
+
+
+/*
+    All Office Start
+  =============================================*/
+.all-office {
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    padding-right: 200px;
+    background-color: #E3E3E3;
+}
+
+    .all-office .country {
+        margin-top: -25px;
+    }
+
+        .all-office .country span {
+            color: #8b9ab2;
+            font-size: 18px;
+            font-weight: 600;
+            margin-right: 12px;
+        }
+
+    .all-office .all-office-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+        .all-office .all-office-logo a {
+            text-decoration: none;
+        }
+
+            .all-office .all-office-logo a img {
+                margin-right: 15px;
+            }
+
+    .all-office .office-location {
+        margin-top: 40px;
+    }
+
+        .all-office .office-location .card {
+            padding: 15px 10px;
+            text-align: center;
+            height: 205px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+            .all-office .office-location .card img {
+                width: 40px;
+                height: 25px;
+            }
+
+            .all-office .office-location .card h5 {
+                margin-top: 15px;
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .all-office .office-location .card span {
+                font-size: 14px;
+            }
+
+            .all-office .office-location .card p {
+                margin: 0;
+                padding: 0;
+            }
+
+                .all-office .office-location .card p a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 14px;
+                }
+
+                    .all-office .office-location .card p a:hover {
+                        text-decoration: underline;
+                    }
+
+    .all-office .copyright {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        .all-office .copyright a {
+            text-decoration: none;
+        }
+
+/*
+    All Office End
+  =============================================*/
+
+
+
+/*
+    Job Application Form Start
+ =============================================*/
+#job-apply-form {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+    #job-apply-form .heading {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        #job-apply-form .heading h2 {
+            color: #5F5F5F;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #job-apply-form .heading h4 {
+            color: #9C9C9C;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+    #job-apply-form form p {
+        color: #579CC8;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        text-decoration: underline;
+    }
+
+    #job-apply-form form label {
+        color: #7A7A7C;
+        float: right;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    #job-apply-form form input {
+        color: #949494;
+        font-size: 14px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 10px;
+    }
+
+        #job-apply-form form input:focus {
+            box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        }
+
+    #job-apply-form form textarea {
+        color: #949494;
+        font-size: 14px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 10px;
+    }
+
+        #job-apply-form form textarea:focus {
+            box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        }
+
+    #job-apply-form form select {
+        color: #949494;
+        font-size: 14px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 10px;
+    }
+
+        #job-apply-form form select:focus {
+            box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        }
+
+    #job-apply-form form .btnSubmit {
+        font-size: 18px;
+        padding: 8px 20px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        background-color: #4969B9;
+        box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 10px;
+    }
+
+        #job-apply-form form .btnSubmit:hover {
+            background-color: #2B478D;
+            transition: .6s;
+        }
+/*
+    Job Application Form End
+ =============================================*/
+
+/*
+    Product Area Start
+  =============================================*/
+.product-content {
+    padding: 100px 50px;
+}
+
+    .product-content .heading {
+        text-align: justify;
+        padding-right: 70px;
+        margin-left: 35px;
+        margin-bottom: 30px;
+        border-left: 2px solid #02AA85;
+    }
+
+    .product-content .all-product .card {
+        margin: 10px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+        .product-content .all-product .card:hover img {
+            transform: scale(1.1);
+            transition: .6s;
+        }
+
+        .product-content .all-product .card .card-text {
+            text-align: justify;
+        }
+
+        .product-content .all-product .card .card-body .card-title a:hover {
+            text-decoration: underline !important;
+            color: #02AA85;
+        }
+
+        .product-content .all-product .card .card-body .btn {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #02AA85;
+            color: #02AA85;
+            background-color: white !important;
+            padding: 6px 18px;
+        }
+
+            .product-content .all-product .card .card-body .btn:hover {
+                background-color: #02AA85 !important;
+                color: white;
+                transition: .6s;
+            }
+/*
+   Product Area End
+  =============================================*/
+
+
+/***********************************************
+    Responsive CSS
+  ************************************************/
+@media only screen and (max-width: 1180px) {
+    /*===Our Work Start===*/
+    .our-work {
+        width: 100%;
+    }
+
+        .our-work .content {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+}
+
+@media only screen and (max-width: 991px) {
+    /*===Webpackage Price Start===*/
+    .webPackage {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+
+        .webPackage .title h1 {
+            font-size: 30px;
+        }
+    /*===Webpackage Price End===*/
+
+    /*===Our Work Start===*/
+    .our-work {
+        width: 100%;
+    }
+
+        .our-work .content {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .our-work h2 {
+            font-size: 46px;
+        }
+
+        .our-work .content .key h1 {
+            font-size: 170px;
+        }
+
+        .our-work .content .short-details p {
+            font-size: 16px;
+        }
+
+        .our-work .content .short-details h3 {
+            font-size: 28px;
+        }
+
+        .our-work .content .dev-tools {
+            margin-top: -10px;
+        }
+
+        .our-work .content .project-photo {
+            margin-top: 18px;
+        }
+        /*===Our Work End===*/
+
+        /*===Get in Touch Start===*/
+        .our-work .get-in-touch {
+            width: 100%;
+            padding-bottom: 10px;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+            .our-work .get-in-touch form h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by .social-link {
+                text-align: center;
+                margin-top: 10px;
+            }
+    /*===Get in Touch End===*/
+
+    /*===All-office===*/
+    .all-office {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+        .all-office p {
+            display: none;
+        }
+
+        .all-office .country {
+            display: none;
+        }
+
+        .all-office .all-office-logo {
+            padding-top: 0px;
+        }
+
+        .all-office .office-location .card {
+            height: auto;
+            margin-bottom: 10px;
+        }
+    /*===All-office End===*/
+}
+
+@media only screen and (max-width: 768px) {
+    /*==Service Section Start==*/
+    .service-section {
+        width: 100%;
+        margin-top: -250px;
+        padding: 10% 5%;
+    }
+    /*==Service Section End==*/
+
+    /*==We Run IT Service Start==*/
+    .it-service {
+        width: 100%;
+        padding: 10% 5%;
+    }
+
+        .it-service .photo {
+            display: block;
+        }
+            .it-service .photo .first-photo {
+                display: none;
+            }
+
+            .it-service .photo .second-photo {
+                width: 100%;
+                margin-bottom: 40px;
+                margin-left: 0px;
+            }
+
+        .it-service p {
+            padding: 0px;
+        }
+
+        .it-service .card {
+            border: none!important;
+            padding: 0px 5px;
+        }
+    /*==We Run IT Service End==*/
+
+
+    /*==Working Process Start==*/
+    .process-section {
+        width: 100%;
+        padding: 10% 5%;
+    }
+
+        .process-section.photo {
+            display: block;
+        }
+
+            .process-section .photo .first-photo {
+                display: none;
+            }
+
+            .process-section .photo .second-photo {
+                width: 100%;
+                margin-bottom: 40px;
+                margin-left: 0px;
+            }
+    /*==Working Process End==*/
+
+    /*===Webpackage Price Start===*/
+    .webPackage {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+
+        .webPackage .title h1 {
+            font-size: 30px;
+        }
+    /*===Webpackage Price End===*/
+
+    /*===Our Work Start===*/
+    .our-work {
+        width: 100%;
+    }
+
+        .our-work h2 {
+            font-size: 34px;
+            padding-top: 120px;
+        }
+
+        .our-work .content {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+            .our-work .content .key h1 {
+                font-size: 170px;
+            }
+
+            .our-work .content .short-details p {
+                font-size: 16px;
+            }
+
+            .our-work .content .short-details h3 {
+                font-size: 32px;
+            }
+
+            .our-work .content .dev-tools {
+                margin-top: -10px;
+            }
+
+            .our-work .content .project-photo {
+                margin-top: 18px;
+            }
+
+                .our-work .content .project-photo img {
+                    width: 100%;
+                    height: 300px;
+                }
+        /*===Our Work End===*/
+
+        /*===Get in Touch Start===*/
+        .our-work .get-in-touch {
+            width: 100%;
+            padding-bottom: 10px;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+            .our-work .get-in-touch form h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by .social-link {
+                text-align: center;
+                margin-top: 10px;
+            }
+    /*===Get in Touch End===*/
+
+    /*===All-office===*/
+    .all-office {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+        .all-office p {
+            display: none;
+        }
+
+        .all-office .country {
+            display: none;
+        }
+
+        .all-office .all-office-logo {
+            padding-top: 0px;
+        }
+
+        .all-office .office-location .card {
+            height: auto;
+            margin-bottom: 10px;
+        }
+    /*===All-office End===*/
+
+    /*====Career page Start====*/
+    #job-apply-form {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+
+        #job-apply-form form p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #job-apply-form form input {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #job-apply-form form textarea {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #job-apply-form form select {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    /*====Career page End====*/
+
+    /*====Product page Start====*/
+    .product-content {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+    /*====Product page Start====*/
+}
+
+@media only screen and (max-width: 480px) {
+    /*===Webpackage Price Start===*/
+    .webPackage {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+
+        .webPackage .title h1 {
+            font-size: 30px;
+        }
+    /*===Webpackage Price End===*/
+
+    /*===Our Work Start===*/
+    .our-work {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+        .our-work .content {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .our-work h2 {
+            font-size: 46px;
+        }
+
+        .our-work .content .key h1 {
+            font-size: 160px;
+        }
+
+        .our-work .content .short-details p {
+            font-size: 16px;
+        }
+
+        .our-work .content .short-details h3 {
+            font-size: 30px;
+        }
+
+        .our-work .content .dev-tools {
+            margin-top: -10px;
+        }
+
+            .our-work .content .dev-tools a {
+                font-size: 16px;
+            }
+
+        .our-work .content .project-photo {
+            margin-top: 18px;
+        }
+
+            .our-work .content .project-photo img {
+                width: 100%;
+                height: 300px;
+            }
+        /*===Our Work End===*/
+
+        /*===Get in Touch Start===*/
+        .our-work .get-in-touch {
+            width: 100%;
+            padding-bottom: 10px;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+            .our-work .get-in-touch form h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by h4 {
+                text-align: center;
+            }
+
+            .our-work .get-in-touch .contact-by .social-link {
+                text-align: center;
+                margin-top: 10px;
+            }
+    /*===Get in Touch End===*/
+
+    /*===All-office===*/
+    .all-office {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+        .all-office p {
+            display: none;
+        }
+
+        .all-office .country {
+            display: none;
+        }
+
+        .all-office .all-office-logo {
+            padding-top: 0px;
+        }
+
+        .all-office .office-location .card {
+            height: auto;
+            margin-bottom: 10px;
+        }
+    /*===All-office End===*/
+
+    /*====Career page Start====*/
+    #job-apply-form {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+
+        #job-apply-form form p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #job-apply-form form input {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #job-apply-form form textarea {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #job-apply-form form select {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    /*====Career page End====*/
+
+    /*====Product page Start====*/
+    .product-content {
+        padding-top: 10%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+    /*====Product page Start====*/
+}
+
+@media only screen and (max-width: 320px) {
+}
